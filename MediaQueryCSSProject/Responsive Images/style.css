@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.image-gallery{
+    width: 100vw;
+    height: 100vh;
+}
+
+.image-gallery img{
+    width: 30%;
+    margin: 10px;
+}
+
+@media all and (max-width:800px) {
+    .image-gallery img{
+        width: 45%;
+    }
+}
+
+@media all and (max-width:500px) {
+    .image-gallery img{
+        width: 100%;
+    }
+}
